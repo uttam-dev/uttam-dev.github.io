@@ -22,8 +22,10 @@
 
 .subtitle {
   position: absolute;
-  right: 25px; /* Aligned slightly inside the right edge of the text */
-  bottom: -5px; /* Dropped just below the main name */
+  right: 25px;
+  /* Aligned slightly inside the right edge of the text */
+  bottom: -5px;
+  /* Dropped just below the main name */
   font-family: var(--sans);
   font-size: 1rem;
   font-style: italic;

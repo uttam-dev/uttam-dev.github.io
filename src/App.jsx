@@ -1,14 +1,19 @@
-import './App.css'
+import React from 'react';
+import { PageLayout } from './components/layout/PageLayout';
+import { Hero } from './components/sections/Hero';
+import { Stack } from './components/sections/Stack';
+import { Focus } from './components/sections/Focus';
+import { Contact } from './components/sections/Contact';
 
 function App() {
   return (
-    <main className="portfolio-container">
-      <div className="title-wrapper">
-        <h1 className="name">Uttam prajapati</h1>
-        <span className="subtitle">Turn coffee into code</span>
-      </div>
-    </main>
-  )
+    <PageLayout>
+      <Hero />
+      <Stack />
+      <Focus />
+      <Contact />
+    </PageLayout>
+  );
 }
 
-export default App
+export default App;
